@@ -1,2 +1,2 @@
-int *Selection_sort(int arr_size, int array[]);
-void display_array(int T[], int n);
+int *Selection_sort(int, int[]);
+void display_array(int[], int);
