@@ -5,6 +5,7 @@ int main(int argc, char *argv[])
 {
     // the first arg must be the size
     int size, *arr, i, j, *t;
+    // convert a string to an integer
     size = atoi(argv[1]);
     arr = (int *)malloc(size * sizeof(int));
     t = (int *)malloc(size * sizeof(int));
