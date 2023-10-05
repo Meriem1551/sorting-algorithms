@@ -17,7 +17,8 @@ int main(int argc, char *argv[])
     {
         arr[j] = atoi(argv[i]);
     }
-    t = Selection_sort(size, arr);
+    // t = Selection_sort(size, arr);
+    t = Bubble_sort(size, arr);
     display_array(t, size);
     free(arr);
     free(t);
